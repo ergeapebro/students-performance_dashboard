@@ -35,12 +35,27 @@ pip install -r requirements.txt
 ## 📊 Business Dashboard
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
 
+Berikut adalah tautan akses ke dashboard online: 👉 [Lihat Dashboard Tableau](https://public.tableau.com/views/students_performance/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## 🚀 Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-
+Untuk menjalankan prototype sistem prediksi dropout mahasiswa, ikuti langkah berikut:
+1. Clone repository atau salin semua file proyek ke dalam satu direktori.
+2. Pastikan semua file model (.joblib) tersedia di folder.
+3. Jalankan aplikasi Streamlit dengan perintah:
 ```
-
+streamlit run main.py
+or
+python -m streamlit run main.py
 ```
+4. Akses aplikasi melalui browser di:
+```
+http://localhost:8501
+```
+### 🔗 Akses Online Prototype
+
+Prototype juga dapat diakses secara online melalui Streamlit Cloud:
+
+[Link Streamlit]()
 
 ## ✅ Conclusion
 Jelaskan konklusi dari proyek yang dikerjakan.
