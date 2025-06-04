@@ -43,19 +43,19 @@ with col1:
         "SKS yang Lulus Semester 1", min_value=0, max_value=25, value=20)
     ipk_1 = st.slider("IPK Semester 1", min_value=0.0,
                       max_value=4.0, value=3.0)
-    usia = st.number_input("Usia saat pendaftaran",
-                           min_value=16, max_value=60, value=18)
-    biaya_lunas = st.selectbox(
-        "Pembayaran Uang Kuliah Lunas?", ["Ya", "Tidak"])
-
-with col2:
     sem2_enrolled = st.number_input(
         "SKS yang Diambil Semester 2", min_value=0, max_value=25, value=20)
     sem2_approved = st.number_input(
         "SKS yang Lulus Semester 2", min_value=0, max_value=25, value=20)
     ipk_2 = st.slider("IPK Semester 2", min_value=0.0,
                       max_value=4.0, value=3.0)
-    penunggak = st.selectbox("Penunggak Biaya Kuliah?", ["Ya", "Tidak"])
+
+with col2:
+    usia = st.number_input("Usia saat pendaftaran kuliah",
+                           min_value=16, max_value=60, value=19)
+    biaya_lunas = st.selectbox(
+        "Apakah pembayaran kuliah lunas?", ["Ya", "Tidak"])
+    penunggak = st.selectbox("Apakah menunggak biaya kuliah?", ["Ya", "Tidak"])
     # status_pembayaran: 1 = Lunas dan Bukan Penunggak, selain itu = 0
     status_pembayaran = 1 if (
         biaya_lunas == "Ya" and penunggak == "Tidak") else 0
