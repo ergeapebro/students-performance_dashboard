@@ -106,7 +106,7 @@ Dari hasil eksplorasi data, ditemukan beberapa temuan penting:
 
 Dashboard interaktif yang dikembangkan menampilkan informasi ini secara ringkas dan dapat diakses oleh pemangku kebijakan, memungkinkan monitoring performa mahasiswa secara real-time.
 
-Sementara itu, model machine learning yang dibangun mampu memprediksi status kelulusan mahasiswa berdasarkan kombinasi variabel akademik dan demografis. Model ini membuka peluang untuk **sistem peringatan dini (early warning system) yang dapat membantu lembaga melakukan intervensi sebelum mahasiswa benar-benar memutuskan untuk keluar.
+Sementara itu, model machine learning yang dibangun mampu memprediksi status kelulusan mahasiswa berdasarkan kombinasi variabel akademik dan demografis. Model ini membuka peluang untuk sistem peringatan dini (early warning system) yang dapat membantu lembaga melakukan intervensi sebelum mahasiswa benar-benar memutuskan untuk keluar.
 
 Dengan demikian, proyek ini tidak hanya menjawab permasalahan bisnis saat ini, tetapi juga menjadi fondasi penting dalam menciptakan lingkungan pendidikan yang lebih adaptif, inklusif, dan berbasis data.
 
